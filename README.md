@@ -1,4 +1,10 @@
-# Frontend Mentor - Chat app CSS illustration
+# For CSS Demystified Live #5
+
+Below is the readme from FrontEndMentor if you want to check it out.
+
+I've cleaned up the code a touch that I did in the live session. You might have to make a few changes or additions to the HTML file. I'm only focusing on the phone, but you're more than welcome to do the whole thing of course!
+
+## Frontend Mentor - Chat app CSS illustration
 
 ![Design preview for the Chat app CSS illustration coding challenge](./design/desktop-preview.jpg)
 
@@ -19,7 +25,7 @@ The only assets we provide in this challenge are the image of the person in the 
 Your users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
-- See the chat interface animate on the initial load *(optional)*
+- See the chat interface animate on the initial load _(optional)_
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 

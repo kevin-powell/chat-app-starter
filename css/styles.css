@@ -1,0 +1,86 @@
+:root {
+  --clr-primary-300: hsl(276, 100%, 81%);
+  --clr-primary-400: hsl(276, 55%, 52%);
+
+  --clr-neural-100: hsl(0, 0%, 100%);
+  --clr-neutral-400: hsl(270, 7%, 64%);
+  --clr-neutral-500: hsl(271, 15%, 43%);
+  --clr-neutral-600: hsl(271, 36%, 24%);
+
+  /* the design specs list these as secondary  */
+  --clr-secondary-300: hsl(206, 6%, 79%);
+  --clr-secondary-400: hsl(270, 20%, 96%);
+  --clr-secondary-400: hsl(271, 36%, 24%);
+  --clr-secondary-400: hsl(289, 100%, 72%);
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.flow > * + * {
+  margin-top: 1rem;
+}
+
+.bg-gradient {
+  --gradient: linear-gradient(
+    var(--gradient-angle, 45deg),
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+}
